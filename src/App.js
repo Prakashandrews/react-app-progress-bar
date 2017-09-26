@@ -18,7 +18,6 @@ class App extends Component {
           'Accept': 'application/json',
           'Content-Type': 'application/json',
         },
-
       }).then((response) => response.json())
         .then((responseJson) => {
           this.setState({progressbar: responseJson});
